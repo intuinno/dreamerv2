@@ -51,7 +51,7 @@ RUN pip3 install --upgrade pip
 
 # Python packages.
 RUN pip3 install --no-cache-dir \
-  'gym[atari]==0.19' \
+  'gym[atari]==0.18' \
   atari_py \
   crafter \
   dm_control \
